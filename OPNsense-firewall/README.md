@@ -44,16 +44,25 @@ In this TechExperiment, we will create an OPNsense firewall as a virtual machine
 
 ## Initial OPNsense Configuration
 
-🚧 **Under Construction** 🚧
-
-This chapter is currently being written and will be added in the next few days. Stay tuned for updates!
+| Step                 | Description |
+| -------------------- | ---------------------------------------- |
+| **System: Wizard: Login** | Open a browser and go to: `https://192.168.1.1` and log in as the user `root` and the password you set earlier. |
+| **System: Wizard: General Setup** | Navigate to System > Wizard, then click `Next` to begin. |
+| **System: Wizard: General information** | Provide `hostname` and `domain` and click `Next`|
+| **System: Wizard: Time Server Information** | Set the time server hostname (default is fine), set your timezone and click `Next` |
+| **System: Wizard: Configure WAN Interface** | IPv4 Configuration Type: DHCP (typical for home networks) |
+| **System: Wizard: Configure WAN Interface** | Uncheck `Block private networks` Note: in this Lab the OPNsense Firewall is located after a router from the internet provider. |
+| **System: Wizard: Configure LAN Interface**  | Provide LAN IP address and click `Next`  |
+| **System: Wizard: Set Root Password** | Click `Next`  |
+| **System: Wizard: Reload Configuration** | Click `Reload` to apply your new configuration.|
+| **Finished initial configuration** | Continue with installing [`QEMU Guest Agent for OPNsense`](docs/4-install-qemu-agent/README.md) |
 
 - [Show Details with screenshots](docs/3-initial-opnsense-configuration/README.md)
 
 ## Install QEMU Guest Agent
 
-🚧 **Under Construction** 🚧
-
-This chapter is currently being written and will be added in the next few days. Stay tuned for updates!
+| Step                 | Description |
+| -------------------- | ---------------------------------------- |
+| **System: Firmware** | Navigate to System > Firmware > Plugins and search for `qemu` to install `QEMU Guest Agent for OPNsense` |
 
 - [Show Details with screenshots](docs/4-install-qemu-agent/README.md)

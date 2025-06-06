@@ -1,5 +1,7 @@
 # Install QEMU Guest Agent
 
-🚧 **Under Construction** 🚧
+Navigate to **System > Firmware > Plugins** and install `QEMU Guest Agent for OPNsense`
 
-This chapter is currently being written and will be added in the next few days. Stay tuned for updates!
+![System > Firmware > Plugins ](images/01-install-qemu-agent.png)
+
+[Back to Overview](../../README.md)
