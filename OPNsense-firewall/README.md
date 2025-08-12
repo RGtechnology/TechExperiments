@@ -77,3 +77,16 @@ In this TechExperiment, we will create an OPNsense firewall as a virtual machine
 
 - [Show Details with screenshots](docs/5-miscellaneous-settings/README.md)
 
+## ACME Client 
+
+| Step                 | Description |
+| -------------------- | ---------------------------------------- |
+| **System: Firmware: Plugins** | Install Plugin `os-acme-client` |
+| **Services: ACME Client: Settings** | Set general settings |
+| **Services: ACME Client: Accounts** | Add a new ACME account |
+| **Services: ACME Client: Challenge Types** | Add a new challenge type DNS-01 |
+| **Services: ACME Client: Certificates** | Add a new certificate   |
+| **Services: ACME Client: Certificates** | Issue the certificate and monitor its status (pending to OK) |
+| **Services: ACME Client: Automations** | Add an automation for certificate management |
+
+- [Show Details with screenshots](docs/6-acme-client/README.md)
