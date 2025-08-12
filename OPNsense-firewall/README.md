@@ -63,6 +63,17 @@ In this TechExperiment, we will create an OPNsense firewall as a virtual machine
 
 | Step                 | Description |
 | -------------------- | ---------------------------------------- |
-| **System: Firmware** | Navigate to System > Firmware > Plugins and search for `qemu` to install `QEMU Guest Agent for OPNsense` |
+| **System: Firmware: Plugins** | Search for `qemu` and install `QEMU Guest Agent for OPNsense` |
 
 - [Show Details with screenshots](docs/4-install-qemu-agent/README.md)
+
+## Miscellaneous Settings
+
+| Step                 | Description |
+| -------------------- | ---------------------------------------- |
+| **System: Configuration: Backups** | Set Backup Count to 500|
+| **System: Firmware: Plugins**| Install Plugin `os-theme-vicuna` |
+| **System: Settings:  General** | Select `Theme vicuna`
+
+- [Show Details with screenshots](docs/5-miscellaneous-settings/README.md)
+
