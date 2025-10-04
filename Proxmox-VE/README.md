@@ -65,3 +65,20 @@ Use the built-in ACME client to automatically request and renew Let's Encrypt ce
 | **ACME Certificate** | PVE-Node -> Certificates -> ACME -> Add |
 
 - [Show Details with screenshots](docs/03-acme-certificates/README.md )
+
+# Sending Email via Gmail SMTP
+
+How to configure a Proxmox VE or Proxmox Backup Server host to send notification emails through **Gmail**.
+
+| Step                 | Description |
+| -------------------- | ---------------------------------------- |
+| **1** | Install required package (libsasl2-modules) |
+| **2** | Store SMTP credentials in `/etc/postfix/sasl_passwd` |
+| **3** | Configure Postfix (`/etc/postfix/main.cf`) |
+| **4** | Rewrite local senders to Gmail (Envelope/Sender header) |
+| **5** | Rewrite the “From:” header (Display name) |
+| **6** | Reload Postfix Configuration |
+| **7** | Send a test mail |
+| **8** | Optional: Aliases for incoming system mail |
+
+- [Show Details](docs/04-email-notification/README.md )
