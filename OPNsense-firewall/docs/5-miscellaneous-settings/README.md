@@ -10,7 +10,7 @@ Navigate to **System > Configuration > Backups** and set Backup Count to 500
 
 Navigate to **System > Firmware > Plugins** and install `os-theme-vicuna`
 
-![System > Firmware > Plugins ](images//02-system-firmware-plugins-theme-vicuna.png)
+![System > Firmware > Plugins ](images/02-system-firmware-plugins-theme-vicuna.png)
 
 Navigate to **System > Settings > General** and select `Theme vicuna`
 

@@ -53,7 +53,7 @@ In this TechExperiment, we will create an OPNsense firewall as a virtual machine
 | **System: Wizard: Configure WAN Interface** | IPv4 Configuration Type: DHCP (typical for home networks) |
 | **System: Wizard: Configure WAN Interface** | Uncheck `Block private networks` Note: in this Lab the OPNsense Firewall is located after a router from the internet provider. |
 | **System: Wizard: Configure LAN Interface**  | Provide LAN IP address and click `Next`  |
-| **System: Wizard: Set Root Password** | Click `Next`  |
+| **System: Wizard: Set Root Password** | Click `Next` (Keep the password you set during the installation).  |
 | **System: Wizard: Reload Configuration** | Click `Reload` to apply your new configuration.|
 | **Finished initial configuration** | Continue with installing [`QEMU Guest Agent for OPNsense`](docs/4-install-qemu-agent/README.md) |
 

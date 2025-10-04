@@ -45,7 +45,7 @@ Provide LAN IP address and click `Next`
 
 ## System: Wizard: Set Root Password
 
-Click `Next`
+Click `Next` (Keep the password you set during the installation )
 
 ![System: Wizard: Set Root Password](images/09-OPNsense-password-change.png)
 
